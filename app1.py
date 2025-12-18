@@ -21,3 +21,4 @@ if st.button("Predict"):
     prediction = model.predict(x_array)
 
     st.success(f"Predicted Output: {prediction[0]:.2f}")
+
